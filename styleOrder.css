@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  }
+  
+  .container {
+    background-color: #f5f5f5; 
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db; 
+  }
+  
+  .item-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-bottom: 20px;
+  }
+  
+  .item-list label {
+    width: 48%; 
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .price {
+    float: right; 
+    font-weight: bold;
+    color: #2ecc71; 
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #total-price {
+    color: #e74c3c;
+  }
+  
+  button[type="submit"] {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 10px;
+    display: block;
+    width: 100%; 
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2980b9; 
+  }
+  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan</title>
+    <link rel="stylesheet" href="styleOrder.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pesanan</h1>
+        <form action="login.html">
+            <div class="item-list">
+                <label for="nasi-goreng">Nasi Goreng</label>
+                <span class="price">Rp 15.000</span>
+                <input type="checkbox" id="nasi-goreng" name="items[ ]" value="nasi-goreng" price="15000">
+
+                <label for="mie-goreng">Mie Goreng</label>                
+                <span class="price">Rp 13.000</span>
+                <input type="checkbox" id="mie-goreng" name="items[ ]" value="mie-goreng" price="13000">
+
+                <label for="mie-kuah">Mie Kuah</label>
+                <span class="price">Rp 20.000</span>
+                <input type="checkbox" id="mie-kuah" name="items[ ]" value="mie-kuah" price="20000">
+
+                <label for="cap-cay">Cap Cay</label>
+                <span class="price">Rp 22.000</span>
+                <input type="checkbox" id="cap-cay" name="items[ ]" value="cap-cay" price="22000">
+
+                <label for="nasi-goreng-mawut">Nasi Goreng Mawut</label>
+                <span class="price">Rp 37.000</span>
+                <input type="checkbox" id="nasi-goreng-mawut" name="items[ ]" value="nasi-goreng-mawut" price="37000">
+
+                <label for="mie-nyemek">Mie Nyemek</label>
+                <span class="price">Rp 21.500</span>
+                <input type="checkbox" id="mie-nyemek" name="items[]" value="mie-nyemek" price="21500">
+            </div>
+            <div class="total">
+                Total: <span id="total-price">Rp 0</span>
+            </div>
+            <button type="submit">Pesan Sekarang</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
